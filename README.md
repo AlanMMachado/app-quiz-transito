@@ -6,6 +6,7 @@
 - Exibição de uma bandeira e quatro opções de resposta.
 - Inteface simples e intuitiva.
 - Feeback imediato sobre a resposta correta ou incorreta.
+  
 
 - Tela Inicial:
 
