@@ -8,14 +8,14 @@
 - Feeback imediato sobre a resposta correta ou incorreta.
   
 
-- Tela Inicial:
+Tela Inicial:
 
 ![Tela Inicial](Prints%20Interface/transito-inicial.jpg)
 
-- Tela de Perguntas:
+Tela de Perguntas:
 
 ![Tela de Perguntasl](Prints%20Interface/transito-quiz1.jpg)
 
-- Tela de Resultado:
+Tela de Resultado:
 
  ![Tela Resultado](Prints%20Interface/transito-resultado.jpg)
