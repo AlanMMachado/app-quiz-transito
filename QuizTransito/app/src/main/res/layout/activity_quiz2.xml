@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/txtvTitulo2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFD369"
+            android:fontFamily="@font/nunito_medium"
+            android:gravity="center_vertical"
+            android:text="  Que sinal de trânsito é esse?    (2/5)"
+            android:textColor="#222831"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+        <ImageView
+            android:id="@+id/imgSalienciaOuLombada"
+            android:layout_width="390dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/saliencia_ou_lombada" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+        <RadioGroup
+            android:id="@+id/rgpQuiz2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbtQ2PrimeiraOpcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cantos_arredondados_opcoes"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_vertical"
+                android:text="Ponte Estreita"
+                android:textColor="#222831"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <RadioButton
+                android:id="@+id/rbtQ2SegundaOpcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cantos_arredondados_opcoes"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_vertical"
+                android:text="Saliência ou Lombada"
+                android:textColor="#222831"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <RadioButton
+                android:id="@+id/rbtQ2TerceiraOpcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cantos_arredondados_opcoes"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_vertical"
+                android:text="Pista Irregular"
+                android:textColor="#222831"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <RadioButton
+                android:id="@+id/rbtQ2QuartaOpcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cantos_arredondados_opcoes"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_vertical"
+                android:text="Parada Obrigatória"
+                android:textColor="#222831"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+        <Button
+            android:id="@+id/btnQ2Proximo"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:backgroundTint="#222831"
+            android:fontFamily="@font/nunito_medium"
+            android:onClick="proximo"
+            android:text="Confirmar"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

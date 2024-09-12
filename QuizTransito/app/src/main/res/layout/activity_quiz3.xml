@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtvTitulo3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFD369"
+            android:fontFamily="@font/nunito_medium"
+            android:gravity="center_vertical"
+            android:text="  Que sinal de trânsito é esse?    (3/5)"
+            android:textColor="#222831"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+        <ImageView
+            android:id="@+id/imgViaLateralADireita"
+            android:layout_width="390dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/via_lateral_a_direita" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+        <RadioGroup
+            android:id="@+id/rgpQuiz3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbtQ3PrimeiraOpcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cantos_arredondados_opcoes"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_vertical"
+                android:text="Cruzamento de Vias"
+                android:textColor="#222831"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <RadioButton
+                android:id="@+id/rbtQ3SegundaOpcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cantos_arredondados_opcoes"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_vertical"
+                android:text="Via Lateral à Direita"
+                android:textColor="#222831"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <RadioButton
+                android:id="@+id/rbtQ3TerceiraOpcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cantos_arredondados_opcoes"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_vertical"
+                android:text="Curva Acentuada a Direita"
+                android:textColor="#222831"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <RadioButton
+                android:id="@+id/rbtQ3QuartaOpcao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cantos_arredondados_opcoes"
+                android:fontFamily="@font/nunito_medium"
+                android:gravity="center_vertical"
+                android:text="Altura Limitada"
+                android:textColor="#222831"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+        <Button
+            android:id="@+id/btnQ3Proximo"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:backgroundTint="#222831"
+            android:fontFamily="@font/nunito_medium"
+            android:onClick="proximo"
+            android:text="Confirmar"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
