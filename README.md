@@ -9,12 +9,12 @@
 
 - Tela Inicial:
 
-- ![Tela Inicial](Prints%20Interface/transito-inicial.jpg)
+![Tela Inicial](Prints%20Interface/transito-inicial.jpg)
 
-- - Tela de Perguntas:
+- Tela de Perguntas:
 
-- ![Tela de Perguntasl](Prints%20Interface/transito-quiz1.jpg)
+![Tela de Perguntasl](Prints%20Interface/transito-quiz1.jpg)
 
-- - Tela de Resultado:
+- Tela de Resultado:
 
-- ![Tela Resultado](Prints%20Interface/transito-resultado.jpg)
+ ![Tela Resultado](Prints%20Interface/transito-resultado.jpg)
